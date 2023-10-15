@@ -1,0 +1,1 @@
+- Eu rodei esse projeto dentro da pasta "htdocs" do XAMPP para o PHP funcionar, você terá que fazer algo semelhante se não o cálculo de CEP não irá funcionar.
