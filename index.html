@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Compras</title>
+    <link rel="stylesheet" href="outro.css">
+    
+</head>
+<body>
+    <h2 class="title">Página de Compras</h2>
+    <div class="carrinho-container">
+    </div>
+
+    <div class="produto">
+
+        <p>B550 MSI Mortar</p>
+        <img src="B550M.jpg"/>
+        <p>Preço: R$ 550</p>
+        <br>
+        <a href="" class="button">Adicionar ao carrinho.</a>
+
+    </div>
+
+    <div class="produto">
+
+        <p>Fonte XPG Pylon</p>
+        <img src="Fonte.jpg"/>
+        <p>Preço: R$ 300</p>
+        <br>
+        <a href="" class="button">Adicionar ao carrinho.</a>
+
+    </div>
+
+    <div class="produto">
+
+        <p>Ryzen 5 5600x</p>
+        <img src="R5.jpg"/>
+        <p>Preço: R$ 900</p>
+        <br>
+        <a href="" class="button">Adicionar ao carrinho.</a>
+
+    </div>
+
+    <div class="produto">
+
+        <br>
+        <br>
+        <p>Ryzen 7 5700x</p>
+        <img src="R7.jpg"/>
+        <p>Preço: R$ 1100</p>
+        <br>
+        <a href="" class="button">Adicionar ao carrinho.</a>
+
+    </div>
+
+    <div class="produto">
+
+        <br>
+        <br>
+        <p>RTX 3060 TI</p>
+        <img src="RTX 3060 TI.jpg"/>
+        <p>Preço: R$ 2600</p>
+        <br>
+        <a href="" class="button">Adicionar ao carrinho.</a>
+
+    </div>
+
+    <div class="produto">
+
+        <br>
+        <br>
+        <p>Monitor TUF 144hz</p>
+        <img src="Monitor.jpg"/>
+        <p>Preço: R$ 950</p>
+        <br>
+        <a href="" class="button">Adicionar ao carrinho.</a>
+
+        <br>
+        
+
+    </div>
+
+    <p>Saiba o preço e o prazo de entrega do frete dos produtos acima colocando o seu cep:</p> 
+
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="calculador">
+                <div class="form-group">
+                   <label for="exampleInputEmail1">Digite Seu CEP:</label>
+                   <input type="text" class="form-control" id="cep" placeholder="CEP" maxlength="9">
+                   <small class="form-text text-muted"><a href="http://www.consultaenderecos.com.br/busca-endereco" target="_blank">Não sei meu CEP.</a></small>
+                </div>
+
+                <br>
+
+                <button type="button" onclick="calculo();" class="btn btn-success" id="botaocep">Calcular</button>
+
+                
+
+            </div> 
+
+            <div class="calculador" id="retorno">
+  
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script src="fretescript.js"></script>
+    
+</body>
+
+</html>
